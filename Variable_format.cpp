@@ -2,7 +2,7 @@
 //
 // created by Huzaifa Khalid
 // Created on: March 2022
-// this program shows how cool and global variables work
+// this program shows how local and global variables work
 
 #include <iostream>
 
@@ -26,7 +26,7 @@ void globalvariable() {
     variableX = variableX + 1;
     int variableY = 30;
     int variableZ = variableX + variableY;
-    std::cout <<"Local variableX, variableY, variableZ: " << variableX
+    std::cout <<"Global variableX, variableY, variableZ: " << variableX
     << " + " << variableY << " = " << variableZ << std::endl;
 }
 
